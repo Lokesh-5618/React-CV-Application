@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border: 2px solid black;
+  text-align: center;
+
+  font-size: larger;
+  width: 1000px;
+  justify-content: space-between;
+
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.438);
+  text-align: left;
+  font-size: large;
+}
+
+.hd {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 2px solid white;
+
+
+
+}
+
+.indfield {
+  display: flex;
+
+  text-align: left;
+  gap: 40px;
+
+
+}
+
+.ftitle {
+
+  text-align: left;
+  width: 250px;
+
+}
+
+
+
+button {
+  width: 35px;
+  background-color: rgb(255, 255, 255);
+  font-size: 10px;
+  text-align: center;
+  color: black;
+  padding: 0;
+}
